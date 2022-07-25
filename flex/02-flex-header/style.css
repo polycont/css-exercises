@@ -1,6 +1,25 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 10px solid white;
+}
+
+.left-links ul,
+.right-links ul {
+  display: flex;
+  margin-left: -40px;
+}
+
+.left-links ul li,
+.right-links ul li {
+  display: flex;
+  margin-left: 10px;
+  margin-right: 10px;
+
 }
 
 .logo {
