@@ -7,9 +7,38 @@ img {
   height: 100px;
 }
 
+.fruit {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.fruit1,
+.fruit2,
+.fruit3,
+.fruit4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 200px;
+}
+
+.fruit1 {
+  margin-left: 20px;
+}
+
+.fruit4 {
+  margin-right: 20px;
+}
+
 .title {
   font-size: 36px;
   font-weight: 900;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 32px;
 }
 
 /* do not edit this footer */
